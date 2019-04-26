@@ -11,11 +11,9 @@ public:
     double x;
     double y;
     double V;
-
     simulador(double _x, double _y);
     //void potencial(double car, int a, int b);
-    void Simprimir();
-    void Cimprimir();
+    void imprimir();
     double setV(double _V);
 };
 

@@ -19,7 +19,7 @@ carga::carga(int _x, int _y) {
 }
 
 void carga::Cimprimir() {
-    cout<<car<<" "<<x<<" "<<y<<endl;
+    cout<<"Carga ="<<car<<" ,x: "<<x<<" ,y: "<<y<<endl;
 }
 
 double carga::potencial(double _px, double _py) {

@@ -16,11 +16,8 @@ simulador::simulador(double _x, double _y) {
   //  V= V +(car * 9 * pow(10, 9) / pow((pow(a - x, 2) + pow(b - y, 2)), 1 / 2));
 //}
 
-void simulador::Simprimir() {
-    cout<<x<<" "<<y<<endl;
-}
-void simulador::Cimprimir() {
-    cout<<V<<endl;
+void simulador::imprimir() {
+    cout<<"x: "<<x<<", y: "<<y<<", V: "<<V<<endl;
 }
 double simulador::setV(double _V) {
     V=_V;

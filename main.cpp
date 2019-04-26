@@ -30,14 +30,16 @@ int main() {
         }
         m0=m0+1.0*x/(m);
     }
+    cout<<"Las cargas son: \n";
     for(int i=0;i<c;i++){
         total[i]->Cimprimir();
     }
-    for(int i=0;i<m-1;i++){
-        for(int j=0;j<n-1;j++){
-            puntos[i][j]->Simprimir();
-        }
-    }
+//    for(int i=0;i<m-1;i++){
+//        for(int j=0;j<n-1;j++){
+//            puntos[i][j]->imprimir();
+//        }
+//    }
+    cout<<"Los puntos son \n";
     for (int i = 0; i < m - 1; i++) {
         for (int j = 0; j < n - 1; j++) {
             for(int k=0;k<c;k++){
@@ -52,7 +54,7 @@ int main() {
 
     for(int i=0;i<m-1;i++){
         for(int j=0;j<n-1;j++){
-            puntos[i][j]->Cimprimir();
+            puntos[i][j]->imprimir();
         }
     }
     return 0;
