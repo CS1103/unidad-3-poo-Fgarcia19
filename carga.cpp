@@ -5,6 +5,8 @@
 #include <iostream>
 #include "carga.h"
 #include <cmath>
+#include <time.h>
+#include <stdlib.h>
 
 using namespace std;
 
